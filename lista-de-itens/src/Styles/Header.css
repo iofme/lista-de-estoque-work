@@ -1,0 +1,35 @@
+.cabecalho{
+    background: #6C68A1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 3.5em;
+}
+#search{
+    background-color: #fff;
+    color: black;
+    width: 23em;
+    height: 2em;
+    border-radius: 15px;
+    padding: 15px;
+}
+.title-header{
+    font-size: 23px;
+}
+.buttons-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
+}
+.button1-cabecalho, .button2-cabecalho{
+    border-radius: 15px;
+    background-color: #A29BF2;
+    width: 8em;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
